@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px
+}
+
+.header h1 {
+    color: #d9dcd6;
+}
+
+.header img {
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+/* formats anchor tags*/
+.header a {
+    display: block;
+    position: relative;
+    bottom: -120px; 
+ }
+
+a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    /* text-decoration: none; */
+}
+
+
+/* format Paragraph tags*/
+p {
+    font-size: 16px;
+}
+
+/*image float in the left side*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*image float in the right side*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*style the left aside section*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*style the left aside contents*/
+.About-Me,
+.Projects
+{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*style the left aside image*/
+.About-Me img,
+.Projects img
+{
+    max-height: 200px;
+}
+
+/*format the left aside h2*/
+.About-Me h2,
+.Projects h2,
+.Contact-Me h2
+{
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+.Contact-Me h2{
+    display: flex;
+    justify-content: center;
+}
+
+/*style the right aside section*/
+.information {
+    margin-right: 1px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 23%;
+    height: 620px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+}
+
+.Contact-Me ul li{
+    display: flex;
+    justify-content: center;
+}
+
+/*style the right aside image*/
+.information img
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/*style the footer section*/
+.footer {
+    padding: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*format the footer h2*/
+.footer h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .information {
+        width: 75%;
+        margin-left: 20px;
+        float: none
+    }
+  } 
