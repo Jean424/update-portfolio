@@ -12,6 +12,6 @@ Responsive design adapts to various browser screen sizes
 
 ## Live Link
 
-https://jean424.github.io/First-CSS-Portfolio/
+https://jean424.github.io/update-portfolio/
 
 ![Screenshot of deployed application](./assets/images/ScreenShot.png)
