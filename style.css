@@ -43,7 +43,7 @@ body {
 
 .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-bottom: 0px;
 }
 
@@ -51,7 +51,7 @@ body {
 .header a {
     display: block;
     position: relative;
-    bottom: -120px; 
+    bottom: -15px; 
  }
 
 a {
@@ -111,6 +111,10 @@ p {
 {
     margin-bottom: 5px;
     font-size: 36px;
+}
+
+.About-Me p {
+    font-size: 1.2rem;
 }
 
 .Contact-Me h2{
