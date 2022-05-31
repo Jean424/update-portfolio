@@ -14,4 +14,5 @@ Responsive design adapts to various browser screen sizes
 
 https://jean424.github.io/update-portfolio/
 
-![Screenshot of deployed application](./assets/images/ScreenShot.png)
+![Screenshot of deployed application](./assets/images/portfolio_homepage1.png)
+![Screenshot of deployed application](./assets/images/portfolio_homepage2.png)
